@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Version='2.0'
+Terminal=true
+Name='amc'
+Comment='Automatic MAC Spoofing Tool'
+Icon=utilities-terminal
+Exec='sh ./amc.sh'
+Categories=Application;Languages;python;
