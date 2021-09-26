@@ -18,7 +18,7 @@ setup(
     name='amc',
     version='2.0.0.1',
     python_requires='>=3.9',
-    install_requires=['net-tools', 'network-manager', 'macchanger'],
+    install_requires=['net-tools', 'network-manager', 'macchanger', 'pyinstaller'],
     find_packages='pkg',
     include_package_data=True,
     url='https://github.com/hexdee606/AMC2.0',
