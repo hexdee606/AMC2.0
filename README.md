@@ -90,14 +90,12 @@
 
  cd AMC2.0
 ```
+
 ```console
- cd dist
+ sudo chmod +x *
 ```
 ```console
- sudo chmod +x amc
-```
-```console
- ./amc
+ python3 amc.py -h
 ```
 
 >**Method 2 : By creating an `executable` file**
