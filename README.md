@@ -9,7 +9,7 @@
 
 ## **About**
 
-**AMC (Automatic Media Access Control [MAC] Address Spoofing tool), Helps you to protect your real network hardware identity. Each entered time interval your hardware address was changed automatically. without intrupting your internet connection.**
+**AMC (Automatic Media Access Control [MAC] Address Spoofing tool), Helps you to protect your real network hardware identity. Each entered time interval your hardware address was changed automatically. without interrupting your internet connection.**
 
 ## Tested On 
 
@@ -80,7 +80,7 @@
  cd AMC
 ```
 
->**Clone AMC from github**
+>**Clone AMC from GitHub**
 ```console
  git clone "https://github.com/hexdee606/AMC2.0.git"
 ```
