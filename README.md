@@ -136,12 +136,12 @@
     -v/--version	: Version information.
 
 
->**Whenever you want to use Automatic MAC Changer AMC follow these steps.**
+>**Whenever you want to use AMC follow these steps.**
 
 
 >**Example**
 ```console
- ./amc  -i eth0 -t 30
+ python3 amc.py  -i eth0 -t 30
 ```
 
 
