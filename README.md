@@ -1,5 +1,5 @@
 
-# AMC- Automatic Media Access Control (MAC) Address Changer
+# AMC- Automatic Media Access Control [MAC] Address Spoofing Tool
 
 [![info](https://badgen.net/badge/Project/Info/blue?icon=information)](https://github.com/hexdee606/AMC2.0#readme)
 [![Open source](https://badgen.net/badge/Open%20Source%3F/Yes%20%21/blue)](#)
@@ -9,7 +9,7 @@
 
 ## **About**
 
-**AMC script helps you change your network interface address (MAC) as per the given interval time without interrupting your network(Internet).**
+**AMC (Automatic Media Access Control [MAC] Address Spoofing tool), Helps you to protect your real network hardware identity. Each entered time interval your hardware address was changed automatically. without intrupting your internet connection.**
 
 ## Tested On 
 
@@ -122,20 +122,20 @@
 >**Available options**
  
     [-h]    Help menu 
-	
-	-a/--about 		: About Alchemists.
-	
-	-i/--interface	: Network interface name.
-	
-	-j/--join		: Join Alchemists.
-	
-	-l/--license	: AMC License.
-	
-	-n/--network	: Available network interface.
-	
-	-t/--time		: Time in seconds.
-	
-	-v/--version	: Version information.
+    
+    -a/--about	: About Alchemists.
+    
+    -i/--interface	: Network interface name.
+    
+    -j/--join	: Join Alchemists.
+    
+    -l/--license	: AMC License.
+    
+    -n/--network	: Available network interface.
+    
+    -t/--time	: Time in seconds.
+    
+    -v/--version	: Version information.
 
 
 >**Whenever you want to use Automatic MAC Changer AMC follow these steps.**
