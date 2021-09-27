@@ -24,10 +24,10 @@
  
 ## **Features** 
 
-1. Light weight and multiple methods for use.
-2. User friendly and easily understantable for new user.
-3. Automatically change netwrok hardware address without loosing internet connectivity.
-4. User friendly command-line based user interface.
+1. Lightweight and multiple methods for use.
+2. User-friendly and easily understandable for new users.
+3. Automatically change network hardware address without losing internet connectivity.
+4. User-friendly command-line-based user interface.
 
 
 ## **User Type**
@@ -42,7 +42,7 @@
 
 ## Process of installation
 
-### Update your debian based linux
+### Update your Debian based Linux
 
 ```console
 sudo apt-get clean -y
@@ -163,7 +163,7 @@ macchanger -p {Network Interface}
 
 > #### If AMC is not working then do the following process:
 
-```conole
+```console
 sudo nano /etc/NetworkManager/NetworkManager.conf
 ```
 
