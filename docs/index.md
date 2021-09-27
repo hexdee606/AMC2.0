@@ -1,10 +1,16 @@
 # AMC- Automatic Media Access Control [MAC] Address Spoofing Tool
 
-[![info](https://badgen.net/badge/Project/Info/blue?icon=information)](https://github.com/hexdee606/AMC2.0#readme)
-[![Open source](https://badgen.net/badge/Open%20Source%3F/Yes%20%21/blue)](#)
-[![CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://github.com/hexdee606/AMC2.0/blob/main/LICENSE)
-[![Python](https://badgen.net/badge/Made%20with/Python3/blue)](https://github.com/hexdee606/AMC2.0#readme)
-[![status](https://badgen.net/badge/Status/Beta/yellow)](#)
+<h1 align="center">
+ 
+ <img align='center' src='https://github.com/hexdee606/AMC2.0/blob/main/User/Banner.png'>
+
+ [![info](https://badgen.net/badge/Project/Info/blue?icon=information)](https://github.com/hexdee606/AMC2.0#readme)
+ [![Open source](https://badgen.net/badge/Open%20Source%3F/Yes%20%21/blue)](#)
+ [![CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://github.com/hexdee606/AMC2.0/blob/main/LICENSE)
+ [![Python](https://badgen.net/badge/Made%20with/Python3/blue)](https://github.com/hexdee606/AMC2.0#readme)
+ [![status](https://badgen.net/badge/Status/Beta/yellow)](#)
+
+</h1>
 
 ## **About**
 
