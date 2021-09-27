@@ -1,6 +1,6 @@
 # AMC- Automatic Media Access Control [MAC] Address Spoofing Tool
 
-<img align="center" src="https://github.com/hexdee606/AMC2.0/blob/main/User/Banner.png">
+<img align="center" src="Banner.png">
 
 [![info](https://badgen.net/badge/Project/Info/blue?icon=information)](https://github.com/hexdee606/AMC2.0#readme)
 [![Open source](https://badgen.net/badge/Open%20Source%3F/Yes%20%21/blue)](#)
