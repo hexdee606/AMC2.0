@@ -1,4 +1,3 @@
-
 # AMC- Automatic Media Access Control [MAC] Address Spoofing Tool
 
 [![info](https://badgen.net/badge/Project/Info/blue?icon=information)](https://github.com/hexdee606/AMC2.0#readme)
@@ -25,101 +24,118 @@
  
 ## **Features** 
 
-1. Change MAC address without interrupting the internet.
-2. Command Line Based Script.
-3. Lightweight and easily handleable.
+1. Light weight and multiple methods for use.
+2. User friendly and easily understantable for new user.
+3. Automatically change netwrok hardware address without loosing internet connectivity.
+4. User friendly command-line based user interface.
+
+
+## **User Type**
+`User must be super user / root user.`
 
 
 ## **Required packages**
-- git `required`
-- Python3 `required`
-- pip3 `optional`
 - net-tools `required`
 - network-manager `required`
 - macchanger `required`
 - pyinstaller `Optional`
 
-## **User Type**
-`User must be super user / root user.` 
+## Process of installation
 
-## Install required packages
+### Update your debian based linux
+
 ```console
- sudo apt update -y
-```
-```console
- sudo apt install git-all -y
-```
-```console
- sudo apt install net-tools -y
-```
-```console
- sudo apt install network-manager -y
-```
-```console
- sudo apt install -y macchanger
+sudo apt-get clean -y
 ```
 
-## Install optional packages
 ```console
- sudo apt update -y
-```
-```console
- sudo apt install python3-pip -y
-```
-```console
- pip install pyinstaller -y
+sudo apt-get update -y
 ```
 
-## How to setup Automatic MAC Changer
+### Create new directory
 
->**Create new directory**
 ```console
- mkdir AMC
-```
-```console
- cd AMC
+mkdir 'AMC20' && cd 'AMC20'
 ```
 
->**Clone AMC from GitHub**
+### Let's Clone AMC-2.0 from GitHub
+
 ```console
- git clone "https://github.com/hexdee606/AMC2.0.git"
+git clone "https://github.com/hexdee606/AMC2.0.git"
 ```
 
->**Method 1 : By using `chmod`**
-```console
+### Install required packages
 
- cd AMC2.0
-```
+> #### Method 1: `Automatically`
+
 ```console
- cd dist
-```
-```console
- sudo chmod +x amc
-```
-```console
- ./amc
+sudo pip3 install requirement.txt
 ```
 
->**Method 2 : By creating an `executable` file**
-```console 
+> #### Method 2: `Manually`
 
- cd AMC
-```
 ```console
- cd AMC2.0
-```
-```console
- pyinstaller --onefile amc.py
-```
-```console
- cd dist
-```
-```console
- ./amc -h
+sudo apt-get install net-tools -y
 ```
 
+```console
+sudo apt-get install network-manager -y
+```
 
->**Available options**
+```console
+sudo apt-get install macchanger -y
+```
+
+```console
+sudo pip3 install pyinstaller -y
+```
+
+## First-time Run AMC-2.0
+
+> #### Method 1: Using `python3`
+
+```console
+ sudo python3 amc.py -h
+```
+
+> #### Method 2 : Using `shell script`
+
+```console
+sudo chmod +x amc.sh
+```
+
+```console
+sh ./amc.sh
+```
+
+> #### Method 3 : Using `desktop file`
+
+```console
+sudo chmod +x amc.sh
+```
+
+```console
+sudo chmod +x run-amc.desktop
+```
+
+```
+Double click on run-amc.desktop
+```
+
+> #### Method 4 : By creating an `executable` file
+
+```console
+pyinstaller --onefile amc.py
+```
+```console
+cd dist
+```
+```console
+./amc -h
+```
+
+
+> #### Available options
  
     [-h]    Help menu 
     
@@ -138,23 +154,19 @@
     -v/--version	: Version information.
 
 
->**Whenever you want to use Automatic MAC Changer AMC follow these steps.**
+## Troubleshooting methods:
 
-
->**Example**
+> #### If unable to access internet/ connection not established then do the following step (`after using AMC`): 
 ```console
- ./amc  -i eth0 -t 30
+macchanger -p {Network Interface}
 ```
 
+> #### If AMC is not working then do the following process:
 
-## Troubleshooting methods if the internet is not working.
-
->If unable to access internet/ connection not established then do the following step (`after using AMC`): 
-```console
- macchanger -p eth0 (Your Network interface)
+```conole
+sudo nano /etc/NetworkManager/NetworkManager.conf
 ```
 
->If AMC is not working then do the following process:
 ```console
 default: managed=false
 To change: managed=true
@@ -162,17 +174,24 @@ To change: managed=true
 
 ## Connect Us
 
+### <img src="https://img.icons8.com/color/15/000000/developer--v2.png"/> Research and Development
+
 [![twitter](https://badgen.net/badge/icon/hexdee606?icon=twitter&label)](https://twitter.com/hexdee606)
 [![github](https://badgen.net/badge/icon/hexdee606?icon=github&label)](https://github.com/hexdee606)
 [![email](https://badgen.net/badge/email/hexdee606/blue)](mailto:hexdee606@gmail.com)
-[![twitter](https://badgen.net/badge/icon/Paradox_044?icon=twitter&label)](https://twitter.com/Paradox_044)
-[![github](https://badgen.net/badge/icon/Paradox44?icon=github&label)](https://github.com/Paradox44)
-[![email](https://badgen.net/badge/email/paradoxhex44/blue)](mailto:paradoxhex44@gmail.com)
+
+### <img src="https://img.icons8.com/color-glass/15/000000/test-partial-passed.png"/> Research and Testing
+
 [![twitter](https://badgen.net/badge/icon/itachi_9197?icon=twitter&label)](https://twitter.com/itachi_9197)
 [![github](https://badgen.net/badge/icon/Itachi-91?icon=github&label)](https://github.com/Itachi-91)
 [![email](https://badgen.net/badge/email/itachiuchiha9197/blue)](mailto:itachiuchiha9197@gmail.com)
+[![twitter](https://badgen.net/badge/icon/athena_077?icon=twitter&label)](https://twitter.com/athena_077)
+[![github](https://badgen.net/badge/icon/athena-077?icon=github&label)](https://github.com/athena-077)
+[![email](https://badgen.net/badge/email/athena74047/blue)](mailto:athena74047@gmail.com)
+[![twitter](https://badgen.net/badge/icon/Paradox_044?icon=twitter&label)](https://twitter.com/Paradox_044)
+[![github](https://badgen.net/badge/icon/Paradox44?icon=github&label)](https://github.com/Paradox44)
+[![email](https://badgen.net/badge/email/paradoxhex44/blue)](mailto:paradoxhex44@gmail.com)
 
-
->We hope you like our project. If 'Yes' click on the star icon at the top right corner or leave a comment so we can improve this script.
+> ###### We hope you like our project. If 'Yes' click on the star icon at the top right corner or leave a comment so we can improve this script.
 
 :heart: from Alchemists.
