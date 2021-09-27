@@ -195,4 +195,4 @@ To change: managed=true
 
 > ###### We hope you like our project. If 'Yes' click on the star icon at the top right corner or leave a comment so we can improve this script.
 
-:heart: from Alchemists.
+<p>&hearts; from Alchemists.</p>
