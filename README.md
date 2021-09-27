@@ -13,7 +13,7 @@
 
 ## **About**
 
-**AMC (Automatic Media Access Control [MAC] Address Spoofing tool), Helps you to protect your real network hardware identity. Each entered time interval your hardware address was changed automatically. without interrupting your internet connection.**
+**AMC (Automatic Media Access Control [MAC] Address Spoofing tool), helps you to protect your real network hardware identity. Each entered time interval your hardware address was changed automatically. without interrupting your internet connection.**
 
 ## Tested On 
 
