@@ -71,13 +71,7 @@ git clone "https://github.com/hexdee606/AMC2.0.git"
 
 ### Install required packages
 
-> #### Method 1: `Automatically`
-
-```console
-sudo pip3 install requirement.txt
-```
-
-> #### Method 2: `Manually`
+> #### System packages
 
 ```console
 sudo apt-get install net-tools -y
@@ -90,6 +84,14 @@ sudo apt-get install network-manager -y
 ```console
 sudo apt-get install macchanger -y
 ```
+
+> #### Method 1: `Automatically`
+
+```console
+sudo pip3 install requirement.txt
+```
+
+> #### Method 2: `Manually`
 
 ```console
 sudo pip3 install pyinstaller -y
