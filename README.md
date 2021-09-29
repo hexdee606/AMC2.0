@@ -1,5 +1,6 @@
 # AMC- Automatic Media Access Control [MAC] Address Spoofing Tool
-<p align="center">
+
+<h3 align="center">
  
  <img align='center' src='https://github.com/hexdee606/AMC2.0/blob/main/User/Banner.png'>
 
@@ -9,7 +10,7 @@
  [![Python](https://badgen.net/badge/Made%20with/Python3/blue)](https://github.com/hexdee606/AMC2.0#readme)
  [![status](https://badgen.net/badge/Status/Beta/yellow)](#)
 
-</p>
+</h3>
 
 ## **About**
 
