@@ -5,11 +5,15 @@
 
  [![info](https://badgen.net/badge/Project/Info/blue?icon=information)](https://github.com/hexdee606/AMC2.0#readme)
  [![Open source](https://badgen.net/badge/Open%20Source%3F/Yes%20%21/blue)](#)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhexdee606%2FAMC2.0.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhexdee606%2FAMC2.0?ref=badge_shield)
  [![CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://github.com/hexdee606/AMC2.0/blob/main/LICENSE)
  [![Python](https://badgen.net/badge/Made%20with/Python3/blue)](https://github.com/hexdee606/AMC2.0#readme)
  [![status](https://badgen.net/badge/Status/Beta/yellow)](#)
 
 </h1>
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhexdee606%2FAMC2.0.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhexdee606%2FAMC2.0?ref=badge_large)
 
 ## **About**
 
