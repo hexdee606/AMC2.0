@@ -16,7 +16,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='amc',
-    version='2.0.0.1',
+    version='2.0.0.2',
     python_requires='>=3.9',
     install_requires=['net-tools', 'network-manager', 'macchanger', 'pyinstaller'],
     find_packages='pkg',
