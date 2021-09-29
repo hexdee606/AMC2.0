@@ -159,6 +159,35 @@ cd dist
     -v/--version	: Version information.
 
 
+## Use AMC-2.0
+
+> #### Method 1: Using `python3`
+
+```console
+ sudo python3 amc.py -i eth0 -t 30
+```
+
+> #### Method 2 : Using `shell script`
+
+```console
+sh ./amc.sh
+```
+
+> #### Method 3 : Using `desktop file`
+
+```
+Double click on run-amc.desktop
+```
+
+> #### Method 4 : By creating an `executable` file
+
+```console
+cd dist
+```
+```console
+./amc -i eth0 -t 30
+```
+
 ## Troubleshooting methods:
 
 > #### If unable to access internet/ connection not established then do the following step (`after using AMC`): 
