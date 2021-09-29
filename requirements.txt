@@ -1,4 +1,1 @@
-net-tools
-network-manager
-macchanger
 pyinstaller
