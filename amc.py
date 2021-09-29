@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
 #############################################################################
-#       Automatic Media Access Control [MAC] Address Changer                #
+#       Automatic Media Access Control [MAC] Address Spoofig Tool           #
 #############################################################################
 # Copyright 2021 Team Alchemists                                            #
 #############################################################################
-# A Automatic Media Access Control [MAC] Address Changer (c) 2021,          #
+# Automatic Media Access Control [MAC] Address Spoofig Tool (c) 2021,       #
 # This work is marked with CC0 1.0 Universal.                               #
 # To view a copy of this license, visit                                     #
 #                                                                           #
@@ -38,8 +38,8 @@ import subprocess
 from os import system, name, popen
 from time import sleep
 
-amc_project_version = '2.0.0.1'
-amc_project_build = 'BETA-KALI_LINUX_2021.3-26092021PM1034'
+amc_project_version = '2.0.0.2'
+amc_project_build = 'BETA-KALI_LINUX_2021.3-29092021PM0228'
 amc_project_license = 'CC0 1.0 Universal'
 amc_project_ide_name = 'PyCharm (Community Edition)'
 amc_project_ide_version = '11.0.12+7-b1504.28 amd64'
@@ -127,7 +127,7 @@ def welcome_message():
     clear()
     banner()
     print("%s######################################################################" % W)
-    print("%s#         AUTOMATIC MEDIA ACCESS CODE (MAC) ADDRESS CHANGER          #" % G)
+    print("%s#     Automatic Media Access Control [MAC] Address Spoofig Tool      #" % G)
     print("%s######################################################################" % W)
     print("%s# {:<20} | {:<43} #".format("Version", amc_project_version) % Y)
     print("%s# {:<20} | {:<43} #".format("Build", amc_project_build) % Y)
@@ -371,6 +371,7 @@ def display_license():
 
 def about_alchemists():
     clear()
+    banner()
     print("%s######################################################################" % W)
     print("%s# About Alchemists Community                                         #\n"
           "%s######################################################################\n"
@@ -383,6 +384,7 @@ def about_alchemists():
 
 def join_alchemist():
     clear()
+    banner()
     print("%s######################################################################" % W)
     print("%s# Join Alchemists Community                                          #\n"
           "%s######################################################################\n"
@@ -396,7 +398,7 @@ def version_amc():
     clear()
     banner()
     print("%s######################################################################" % W)
-    print("%s#         AUTOMATIC MEDIA ACCESS CODE (MAC) ADDRESS CHANGER          #" % G)
+    print("%s#     Automatic Media Access Control [MAC] Address Spoofig Tool      #" % G)
     print("%s######################################################################" % W)
     print("%s# {:<20} | {:<43} #".format("Version", amc_project_version) % Y)
     print("%s# {:<20} | {:<43} #".format("Build", amc_project_build) % Y)
