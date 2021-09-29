@@ -1,28 +1,40 @@
 # AMC- Automatic Media Access Control [MAC] Address Spoofing Tool
 
-<img align="center" src="Banner.png">
+<p align='center'>
+<img align='center' src='Banner.png'>
+</p>
 
-[![info](https://badgen.net/badge/Project/Info/blue?icon=information)](https://github.com/hexdee606/AMC2.0#readme)
-[![Open source](https://badgen.net/badge/Open%20Source%3F/Yes%20%21/blue)](#)
-[![CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://github.com/hexdee606/AMC2.0/blob/main/LICENSE)
-[![Python](https://badgen.net/badge/Made%20with/Python3/blue)](https://github.com/hexdee606/AMC2.0#readme)
-[![status](https://badgen.net/badge/Status/Beta/yellow)](#)
+<p align='center'>
+ <a href='https://github.com/hexdee606/AMC2.0/wiki/Home/_edit#about'>
+  <img align='center' src='https://badgen.net/badge/Project/Info/blue?icon=information'>
+ </a>
+ 
+ <img align='center' src='https://badgen.net/badge/Open%20Source%3F/Yes%20%21/blue'>
+
+ <a href='https://github.com/hexdee606/AMC2.0/blob/main/LICENSE'>
+  <img align='center' src='https://img.shields.io/badge/License-CC--0-blue.svg'>
+ </a>
+
+ <img align='center' src='https://badgen.net/badge/Made%20with/Python3/blue'>
+
+ <img align='center' src='https://badgen.net/badge/Status/Beta/yellow'>
+</p>
 
 ## **About**
 
-**AMC (Automatic Media Access Control [MAC] Address Spoofing tool), Helps you to protect your real network hardware identity. Each entered time interval your hardware address was changed automatically. without interrupting your internet connection.**
+**AMC (Automatic Media Access Control [MAC] Address Spoofing tool), helps you to protect your real network hardware identity. Each entered time interval your hardware address was changed automatically. without interrupting your internet connection.**
 
 ## Tested On 
 
  Sr. | Operating System | Version | Virtual Box | VM Ware | Network Type |
 --- | --- | --- | --- | --- | --- |
-1 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux | 2021.2 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on) |
-2 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux | 2021.1 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on) |
-3 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux | 2020.4 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on) |
-4 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux | 2019.4 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on) |
-5 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux | 2018.4 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on) |
-6 | <img align="center" src="https://img.icons8.com/ios/25/000000/ubuntu.png">  Ubuntu | 20.04 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on) |
-7 | <img align="center" src="https://img.icons8.com/ios-glyphs/25/000000/debian.png">  Debian | 10.0 | [![status](https://badgen.net/github/status/micromatch/micromatch/f4809eb6df80b)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/f4809eb6df80b)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on) | [![network](https://badgen.net/badge/Network/NAT/red)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on) |
+1 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2021.2 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on) |
+2 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2021.1 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on) |
+3 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2020.4 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on) |
+4 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2019.4 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on) |
+5 | <img align="center" src="https://img.icons8.com/color/25/000000/kali-linux.png"> Kali Linux</img > | 2018.4 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on) |
+6 | <img align="center" src="https://img.icons8.com/ios/25/000000/ubuntu.png">  Ubuntu</img > | 20.04 | [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/4.0.1)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![network](https://badgen.net/badge/Network/NAT/brown)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on) |
+7 | <img align="center" src="https://img.icons8.com/ios-glyphs/25/000000/debian.png">  Debian</img > | 10.0 | [![status](https://badgen.net/github/status/micromatch/micromatch/f4809eb6df80b)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on)| [![status](https://badgen.net/github/status/micromatch/micromatch/f4809eb6df80b)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on) | [![network](https://badgen.net/badge/Network/NAT/red)](https://github.com/hexdee606/AMC2.0/blob/main/README.md#tested-on) |
  
 ## **Features** 
 
@@ -156,10 +168,38 @@ cd dist
     -v/--version	: Version information.
 
 
+## Use AMC-2.0
+
+> #### Method 1: Using `python3`
+
+```console
+ sudo python3 amc.py -i eth0 -t 30
+```
+
+> #### Method 2 : Using `shell script`
+
+```console
+sh ./amc.sh
+```
+
+> #### Method 3 : Using `desktop file`
+
+```
+Double click on run-amc.desktop
+```
+
+> #### Method 4 : By creating an `executable` file
+
+```console
+cd dist
+```
+```console
+./amc -i eth0 -t 30
+```
+
 ## Troubleshooting methods:
 
 > #### If unable to access internet/ connection not established then do the following step (`after using AMC`): 
-
 ```console
 macchanger -p {Network Interface}
 ```
@@ -197,4 +237,4 @@ To change: managed=true
 
 > ###### We hope you like our project. If 'Yes' click on the star icon at the top right corner or leave a comment so we can improve this script.
 
-<p>&hearts; from Alchemists.</p>
+:heart: from Alchemists.
