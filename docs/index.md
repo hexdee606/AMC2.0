@@ -1,7 +1,7 @@
 # AMC- Automatic Media Access Control [MAC] Address Spoofing Tool
 
 <p align='center'>
-<img align='center' src='https://github.com/hexdee606/AMC2.0/blob/76a3a30332e561d199f58d37b2d09fd50b3704c8/docs/Banner.png'>
+<img align='center' src='Banner.png'>
 </p>
 
 <p align='center'>
