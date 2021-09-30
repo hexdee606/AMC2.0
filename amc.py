@@ -38,8 +38,8 @@ import subprocess
 from os import system, name, popen
 from time import sleep
 
-amc_project_version = '2.0.0.2'
-amc_project_build = 'BETA-KALI_LINUX_2021.3-29092021PM0228'
+amc_project_version = '2.0.0.3'
+amc_project_build = 'BETA-KALI_LINUX_2021.3-30092021AM1051'
 amc_project_license = 'CC0 1.0 Universal'
 amc_project_ide_name = 'PyCharm (Community Edition)'
 amc_project_ide_version = '11.0.12+7-b1504.28 amd64'
@@ -423,17 +423,14 @@ def parse_args():
     # parse the arguments
     parser = argparse.ArgumentParser(epilog='\tExample: \r\npython3 ' + sys.argv[0] + " -i eth0 -t 30")
     parser.error = parser_error
-    parser._optionals.title = "OPTIONS"
-    parser.add_argument('-a', '--about', help='About Alchemists.', default=False, type=isboolean, const=True, nargs='?')
-    parser.add_argument('-i', '--interface', help="Network interface name.")
-    parser.add_argument('-j', '--join', help='Join Alchemists.', default=False, type=isboolean, const=True, nargs='?')
-    parser.add_argument('-l', '--license', help='AMC License.', default=False, type=isboolean, const=True,
-                        nargs='?')
-    parser.add_argument('-n', '--network', help='Available network interface.', default=False, type=isboolean,
-                        const=True, nargs='?')
-    parser.add_argument('-t', '--time', help='Time in seconds.', type=int)
-    parser.add_argument('-v', '--version', help='Version information.', default=False, type=isboolean,
-                        const=True, nargs='?')
+    #parser._optionals.title = "OPTIONS"
+    parser.add_argument('-a', '--about', help='show what is alchemist community.', metavar="", default=False, type=isboolean, const=True, nargs='?')
+    parser.add_argument('-i', '--interface', help="network interface name to change mac address.", metavar="", type=str)
+    parser.add_argument('-j', '--join', help='show how to join alchemists community.', default=False, metavar="", type=isboolean, const=True, nargs='?')
+    parser.add_argument('-l', '--license', help='show open source license information.', default=False, metavar="", type=isboolean, const=True, nargs='?')
+    parser.add_argument('-n', '--network', help='show available network interface list.', metavar="", default=False, type=isboolean, const=True, nargs='?')
+    parser.add_argument('-t', '--time', help='time to change mac address automatically.', metavar="", type=int)
+    parser.add_argument('-v', '--version', help='show version information.', default=False, metavar="", type=isboolean, const=True, nargs='?')
     return parser.parse_args()
 
 
