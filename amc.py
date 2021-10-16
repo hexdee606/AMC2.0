@@ -38,8 +38,8 @@ import subprocess
 from os import system, name, popen
 from time import sleep
 
-amc_project_version = '2.0.0.3'
-amc_project_build = 'BETA-KALI_LINUX_2021.3-30092021AM1051'
+amc_project_version = '2.0.0.4'
+amc_project_build = 'BETA-KALI_LINUX_2021.3-16102021PM0643'
 amc_project_license = 'CC0 1.0 Universal'
 amc_project_ide_name = 'PyCharm (Community Edition)'
 amc_project_ide_version = '11.0.12+7-b1504.28 amd64'
@@ -390,7 +390,7 @@ def join_alchemist():
           "%s######################################################################\n"
           "%s# Tweet us: hexdee606, Itachi_9197, Paradox_044, Athena_74047        #\n"
           "%s######################################################################\n"
-          "%s# To join Alchemists Community please visit: bit.ly/join_alchemists  #\n"
+          "%s# To join please visit: join_alchemists_community                    #\n"
           "%s######################################################################\n" % (G, W, G, W, G, W))
 
 
