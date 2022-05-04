@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
 #############################################################################
-#       Automatic Media Access Control [MAC] Address Spoofig Tool           #
+#       Automatic Media Access Control [MAC] Address Spoofing Tool          #
 #############################################################################
-# Copyright 2021 Team Alchemists                                            #
+# Copyright 2022 Team Alchemists                                            #
 #############################################################################
-# Automatic Media Access Control [MAC] Address Spoofig Tool (c) 2021,       #
+# Automatic Media Access Control [MAC] Address Spoofing Tool (c) 2022,      #
 # This work is marked with CC0 1.0 Universal.                               #
 # To view a copy of this license, visit                                     #
 #                                                                           #
@@ -20,7 +20,7 @@
 #                           ABOUT TEAM ALCHEMISTS                           #
 #############################################################################
 # Research & Developer  :   Dipen Chavan                                    #
-# Research & Testing    :   Aniket Kumbhar, Ankita Hendre, Shreyas Kulkarni #
+# Research & Testing    :   Shreyas Kulkarni, Aniket Kumbhar, Ankita Hendre #
 # Guide                 :   Anshul Tayal                                    #
 #############################################################################
 # this script is written in Python3 using PyCharm Community Edition 2021    #
@@ -38,11 +38,11 @@ import subprocess
 from os import system, name, popen
 from time import sleep
 
-amc_project_version = '2.0.0.4'
-amc_project_build = 'BETA-KALI_LINUX_2021.3-16102021PM0643'
+amc_project_version = '2.0.0.5'
+amc_project_build = 'BETA-KALI_LINUX_2022.1-04052022PM1230'
 amc_project_license = 'CC0 1.0 Universal'
 amc_project_ide_name = 'PyCharm (Community Edition)'
-amc_project_ide_version = '11.0.12+7-b1504.28 amd64'
+amc_project_ide_version = '11.0.14.1+1-b2043.25 amd64'
 amc_project_programming_language = 'Python3'
 amc_project_programming_language_version = '3.9'
 
@@ -114,9 +114,9 @@ def banner():
     print("%s#             _/    _/      _/      _/        _/_/_/                 #" % W)
     print("%s#                                                                    #" % W)
     print("%s#             Coded  by Dipen   Chavan   - @hexdee606                #" % G)
-    print("%s#             Tested by Aniket  Kumbhar  - @itachi-91                #" % B)
+    print("%s#             Tested by Shreyas Kulkarni - @paradox44                #" % B)
+    print("%s#             Tested by Aniket  Kumbhar  - @itachi-91                #" % Y)
     print("%s#             Tested by Ankita  Hendre   - @athena-077               #" % R)
-    print("%s#             Tested by Shreyas Kulkarni - @paradox44                #" % Y)
 
 
 def welcome_message():
@@ -127,16 +127,16 @@ def welcome_message():
     clear()
     banner()
     print("%s######################################################################" % W)
-    print("%s#     Automatic Media Access Control [MAC] Address Spoofig Tool      #" % G)
+    print("%s#     Automatic Media Access Control [MAC] Address Spoofing Tool     #" % G)
     print("%s######################################################################" % W)
     print("%s# {:<20} | {:<43} #".format("Version", amc_project_version) % Y)
     print("%s# {:<20} | {:<43} #".format("Build", amc_project_build) % Y)
     print("%s######################################################################" % W)
-    print("%s# Information: This script helps you to change your MAC              #" % B)
-    print("%s# Address automatically to spoof your Original MAC Address           #" % B)
+    print("%s# Information: This script helps you to change your MAC Address      #" % B)
+    print("%s# automatically to spoof your Original MAC Address.                  #" % B)
     print("%s######################################################################" % W)
-    print("%s# Warning: If you receive any legal warrant from cyber               #" % R)
-    print("%s# Branch then we are not responsible for this.                       #" % R)
+    print("%s# Warning: If you receive any legal warrant from Cyber Branch        #" % R)
+    print("%s# then we are not responsible for consequences.                      #" % R)
     print("%s######################################################################" % W)
     print("%s# Made for Educational purpose only.                                 #" % Y)
     print("%s######################################################################" % W)
@@ -176,9 +176,9 @@ def exit_msg(network_interface):
         clear()
         welcome_message()
         print("# We hope you like Automatic MAC Address Changer.                    #")
-        print("# If you have any suggestion please comment us on Github. Bye !      #")
+        print("# If you have any suggestions please comment us on Github. Thanks !  #")
         print("######################################################################")
-        print("# Made and loved by Alchemists Open Source Community.                #")
+        print("# Made with love by Alchemists Open Source Community.                #")
         print("######################################################################")
         sys.exit()
     except Exception as exit_error:
@@ -188,6 +188,7 @@ def exit_msg(network_interface):
 def command_line_process(command, network_interface):
     """
     This function read command line outputs.
+    :param network_interface:
     :param command: any terminal based command.
     :return: command line strings.
     """
@@ -228,7 +229,7 @@ def flash_new_mac(network_interface):
         print("######################################################################")
         print("# MAC address for {:<32}                   #".format(network_interface + " successfully changed."))
         print("######################################################################")
-        print("# Please wait, reconnecting to network communication...              #")
+        print("# Please wait, reconnecting to the network ....                      #")
         print("######################################################################")
         sleep(0.5)
     except Exception as flash_new_mac_error:
@@ -275,17 +276,17 @@ def check_network_interface(network_interface):
 
 def check_change_time(change_time):
     """
-    to check timeout time is between 25 to 60 or not.
+    to check timeout time is between 30 to 60 or not.
     :param change_time: int value input given by user
-    :return: if time is between 25 to 60 return True
+    :return: if time is between 30 to 60 return True
     """
     try:
-        if int(change_time) < 25:
+        if int(change_time) < 30:
             clear()
             welcome_message()
-            print("%s# Yes ! privacy is important. but change MAC address to often,       #" % G)
+            print("%s# Yes ! privacy is important. But changing MAC address often,        #" % G)
             print("%s# it will damage your Network Manager Service.                       #" % G)
-            print("%s# Please enter time between 25 sec to 60 sec.                        #" % G)
+            print("%s# Please enter the time between 30 sec to 60 sec.                    #" % G)
             print("%s######################################################################" % W)
             sys.exit()
         elif int(change_time) > 60:
@@ -293,7 +294,7 @@ def check_change_time(change_time):
             welcome_message()
             print("%s# Are you serious ? there no use of AMC. The time you entered it     #" % G)
             print("%s# will take more then 1 min to change your MAC Address.              #" % G)
-            print("%s# Please enter time between 25 sec to 60 sec.                        #" % G)
+            print("%s# Please enter the time between 30 sec to 60 sec.                    #" % G)
             print("%s######################################################################" % W)
             sys.exit()
         else:
@@ -353,9 +354,9 @@ def run_amc(change_time, network_interface):
 def display_license():
     clear()
     welcome_message()
-    print("%s# Copyright 2021 Team Alchemists                                     #\n"
+    print("%s# Copyright 2022 Team Alchemists                                     #\n"
           "%s######################################################################\n"
-          "%s# A Automatic Media Access Control [MAC] Address Changer (c) 2021,   #\n"
+          "%s# A Automatic Media Access Control [MAC] Address Changer (c) 2022,   #\n"
           "# This work is marked with CC0 1.0 Universal.                        #\n"
           "# To view a copy of this license, visit                              #\n"
           "#                                                                    #\n"
@@ -375,7 +376,7 @@ def about_alchemists():
     print("%s######################################################################" % W)
     print("%s# About Alchemists Community                                         #\n"
           "%s######################################################################\n"
-          "%s# Alchemists, is cyber enthusiasm community. Who focus to aware      #\n"
+          "%s# Alchemists, is cyber enthusiasm community. Who focus to make aware #\n"
           "# people about cyber security and develop open-source security tools.#\n"
           "%s######################################################################\n"
           "%s# Use -j/ --join to join Alchemists Community.                       #\n"
@@ -388,9 +389,9 @@ def join_alchemist():
     print("%s######################################################################" % W)
     print("%s# Join Alchemists Community                                          #\n"
           "%s######################################################################\n"
-          "%s# Tweet us: hexdee606, Itachi_9197, Paradox_044, Athena_74047        #\n"
+          "%s# Tweet us: hexdee606, Paradox_044, Itachi_9197, Athena_74047        #\n"
           "%s######################################################################\n"
-          "%s# To join please visit: join_alchemists_community                    #\n"
+          "%s# To join email us on: open.alchemists.community@gmail.com           #\n"
           "%s######################################################################\n" % (G, W, G, W, G, W))
 
 
@@ -398,7 +399,7 @@ def version_amc():
     clear()
     banner()
     print("%s######################################################################" % W)
-    print("%s#     Automatic Media Access Control [MAC] Address Spoofig Tool      #" % G)
+    print("%s#     Automatic Media Access Control [MAC] Address Spoofing Tool     #" % G)
     print("%s######################################################################" % W)
     print("%s# {:<20} | {:<43} #".format("Version", amc_project_version) % Y)
     print("%s# {:<20} | {:<43} #".format("Build", amc_project_build) % Y)
@@ -423,14 +424,19 @@ def parse_args():
     # parse the arguments
     parser = argparse.ArgumentParser(epilog='\tExample: \r\npython3 ' + sys.argv[0] + " -i eth0 -t 30")
     parser.error = parser_error
-    #parser._optionals.title = "OPTIONS"
-    parser.add_argument('-a', '--about', help='show what is alchemist community.', metavar="", default=False, type=isboolean, const=True, nargs='?')
+    # parser._optionals.title = "OPTIONS"
+    parser.add_argument('-a', '--about', help='show what is alchemist community.', metavar="", default=False,
+                        type=isboolean, const=True, nargs='?')
     parser.add_argument('-i', '--interface', help="network interface name to change mac address.", metavar="", type=str)
-    parser.add_argument('-j', '--join', help='show how to join alchemists community.', default=False, metavar="", type=isboolean, const=True, nargs='?')
-    parser.add_argument('-l', '--license', help='show open source license information.', default=False, metavar="", type=isboolean, const=True, nargs='?')
-    parser.add_argument('-n', '--network', help='show available network interface list.', metavar="", default=False, type=isboolean, const=True, nargs='?')
+    parser.add_argument('-j', '--join', help='show how to join alchemists community.', default=False, metavar="",
+                        type=isboolean, const=True, nargs='?')
+    parser.add_argument('-l', '--license', help='show open source license information.', default=False, metavar="",
+                        type=isboolean, const=True, nargs='?')
+    parser.add_argument('-n', '--network', help='show available network interface list.', metavar="", default=False,
+                        type=isboolean, const=True, nargs='?')
     parser.add_argument('-t', '--time', help='time to change mac address automatically.', metavar="", type=int)
-    parser.add_argument('-v', '--version', help='show version information.', default=False, metavar="", type=isboolean, const=True, nargs='?')
+    parser.add_argument('-v', '--version', help='show version information.', default=False, metavar="", type=isboolean,
+                        const=True, nargs='?')
     return parser.parse_args()
 
 
