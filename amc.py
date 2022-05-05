@@ -152,13 +152,21 @@ def reset_mac(network_interface):
         clear()
         welcome_message()
         print("# Please wait...                                                     #")
+        
+        """ enable this if network manager service need to restart.
         subprocess.call(["service", "NetworkManager", "stop"], shell=False)
         subprocess.call(["ifconfig", network_interface, "down"], shell=False)
+        """
+        
         print("# Flushing default MAC Address...                                    #")
         command_line_process(f"macchanger -p {network_interface}", network_interface)
         print("# Resetting network manager...                                       #")
+        
+        """ enable this if network manager service need to restart.
         subprocess.call(["ifconfig", network_interface, "up"], shell=False)
         subprocess.call(["service", "NetworkManager", "start"], shell=False)
+        """
+        
         print("# Connecting to Internet...                                          #")
         print("######################################################################")
         sleep(2)
@@ -216,16 +224,24 @@ def flash_new_mac(network_interface):
         clear()
         welcome_message()
         print("# Please wait, do not close or cancel this process...                #")
-        print("# Turning off network manager service...                             #")
+        
+        """ enable this if network manager service need to restart.
+        print("# Turning off network manager service...                             #")   
         subprocess.call(["service", "NetworkManager", "stop"], shell=False)
         print("# Turning off {:<10}                                             #".format(network_interface + "..."))
         subprocess.call(["ifconfig", network_interface, "down"], shell=False)
+        """
+        
         print("# Flashing new MAC address...                                        #")
         command_line_process(f"macchanger -a {network_interface}", network_interface)
+        
+        """ enable this if network manager service need to restart.
         print("# Turning on {:<10}                                              #".format(network_interface + "..."))
         subprocess.call(["ifconfig", network_interface, "up"], shell=False)
         print("# Turning on network manager service...                              #")
         subprocess.call(["service", "NetworkManager", "start"], shell=False)
+        """
+        
         print("######################################################################")
         print("# MAC address for {:<32}                   #".format(network_interface + " successfully changed."))
         print("######################################################################")
