@@ -42,7 +42,7 @@
 
 ## **Required packages**
 - net-tools `required`
-- network-manager `required`
+- network-manager `required` `Latest version`
 - macchanger `required`
 - pyinstaller `Optional`
 
