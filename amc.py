@@ -38,8 +38,8 @@ import subprocess
 from os import system, name, popen
 from time import sleep
 
-amc_project_version = '2.0.0.5'
-amc_project_build = 'BETA-KALI_LINUX_2022.1-04052022PM1230'
+amc_project_version = '2.0.0.6'
+amc_project_build = 'BETA-KALI_LINUX_2022.1-05052022AM0920'
 amc_project_license = 'CC0 1.0 Universal'
 amc_project_ide_name = 'PyCharm (Community Edition)'
 amc_project_ide_version = '11.0.14.1+1-b2043.25 amd64'
