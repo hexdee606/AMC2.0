@@ -50,7 +50,7 @@ Sr. | Operating System | Version | Virtual Box | VM Ware | Network Type |
 
 ## **Required packages**
 - net-tools `required`
-- network-manager `required`
+- network-manager `required` `Latest version`
 - macchanger `required`
 - pyinstaller `Optional`
 
